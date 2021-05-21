@@ -333,3 +333,59 @@ main {
 }
 /* MAIN - END */
 
+
+/* FOOTER - START */
+footer {
+    background-color: #f2f2f2;
+    height: 105px;
+}
+#main-footer {
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+}
+#top-footer {
+    display: flex;
+    font-size: 0.9em;
+    margin-top: 25px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dadce0;
+}
+#circle-learn-more {
+    display: flex;
+    margin-left: 295px;
+}
+#circle-location {
+    display: flex;
+    align-items: center;
+}
+.circle {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #70757a;
+    border-radius: 45%;
+}
+#location {
+    color: #3c4043;
+    font-weight: bold;
+    padding-left: 3px;
+}
+#ip-learnmore {
+    color: #7b8085;
+}
+#learn-more:hover, .footer-link:hover {
+    color: rgb(45, 45, 45);
+    cursor: pointer;
+}
+#footer-links {
+    display: flex;
+    color: #70757a;
+    font-size: 0.9em;
+    margin-top: 12px;
+    margin-left: 295px;
+}
+.footer-link {
+    margin-right: 25px;
+}
+/* FOOTER - END */
